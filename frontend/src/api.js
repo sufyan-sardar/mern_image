@@ -1,7 +1,6 @@
 import axios from "axios";
 
-export const API_BASE_URL =
-  import.meta.env.VITE_BASE_URL || "http://localhost:5000";
+export const BASE_URL ="https://mernimage-production.up.railway.app/api/images";
 
 const api = axios.create({
   baseURL: `${API_BASE_URL}/api`,
